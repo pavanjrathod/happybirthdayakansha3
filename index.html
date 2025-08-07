@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday!</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+  <div class="stars">
+    <span style="top: 10%; left: 15%; animation-delay: 0s;"></span>
+    <span style="top: 40%; left: 70%; animation-delay: 1s;"></span>
+    <span style="top: 80%; left: 30%; animation-delay: 2s;"></span>
+    <span style="top: 60%; left: 85%; animation-delay: 3s;"></span>
+    <span style="top: 25%; left: 50%; animation-delay: 1.5s;"></span>
+  </div>
+
+  <div class="container">
+    <h1>🎉 Happy Birthday, lil Sister! 🎂</h1>
+    <p class="subtitle">Wishing you a magical day filled with sparkle, joy, and everything you adore 💖</p>
+
+    <div class="photo">
+      <img src="/assets/WhatsApp Image 2025-04-22 at 14.19.46 (1).jpeg " alt="sister Photo">
+    </div>
+
+    <button class="gift-button" onclick="showMessage()">🎁 Open Your Gift</button>
+    <div class="hidden-message" id="message">
+       🎈 Hey Little Sis! 💖<br><br>
+      Happy Birthday to the to my sweetest, brightest little sister Akankshya! 
+      May your day be filled with laughter, unicorns, candy rain, and dreams that take you to magical places. 💫<br><br>
+      You’re not just my sister — you’re my forever friend. Love you to the moon and back! 🚀💕<br><br>
+      — With all my love, Your Big Brother Pavan 🧁
+    </div>
+  </div>
+
+  <audio autoplay loop>
+    <source src="assets/background-music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="footer">
+    Made with 💖 and care just for you
+  </div>
+
+  <!-- External JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+  <script src="java.js"></script>
+
+</body>
+</html>
